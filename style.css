@@ -1,0 +1,47 @@
+
+table{
+    max-width: 80%;
+}
+table, td, th{
+    border: solid 2px green;
+    border-collapse: collapse;
+    
+}
+th{
+    width: 30%;
+}
+td{
+    width: 70%;
+}
+
+header img{
+    width: 25%;
+    display: inline-block;
+    max-width: 200px; 
+    border-radius: 50%;
+    
+}
+header{
+    background-color: brown;
+    
+    
+}
+h1{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+.contenedor{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    border: none;
+    background-color: deepskyblue;
+}
+.encabezado{
+    max-width: 95%;
+    display: inline-block;
+    background-color: brown;
+   
+}

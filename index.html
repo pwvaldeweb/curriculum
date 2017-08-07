@@ -6,6 +6,7 @@
 		<title>Page Title</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
+        <link type="text/css" href="style.css" rel="stylesheet"><link type="text/css" href="normalize.css" rel="stylesheet">
         <style>
             body{
                 background-image: url(imagenes/fondo2.jpg);
@@ -14,23 +15,30 @@
 	</head>
 
 	<body>
-        <h1 id="arriba"><strong>Curriculum </strong></h1>
+        <div class="contenedor">
+            
+           <header>
+               <h1 id="arriba">Curriculum </h1>
+       
+            <img src="imagenes/frida.jpg">
+            </header>
+        
+            
+           
     <h2>
         <em><ins>Auxiliar Administrativo</ins></em>
     </h2>
         <hr>
     
-        <table border="1px" style="text-align:left;margin: 0 auto;;">
-        <caption style="color:white;background:blue;">
+        <table>
+        <caption >
             <strong>Datos personales</strong>
         </caption>   
     <tr>
         <th>Nombre</th>
         <td>Julia Delgado Prieto</td>
 
-        <td rowspan="4"><img width="150" src="imagenes/frida.jpg" alt="Esta es la imagen de julia">
         
-        </td>
     <tr>
         <th>Calle</th>
         <td>C/ Luis Merlo de la Fuente, s/n</td>
@@ -46,9 +54,7 @@
     </tr>
     </table>
     
-    <h3>
-        <mark style="background:blue;color:white;" >Educacion</mark>
-    </h3>
+    <h3>Educacion</h3>
         <ul>
         <div class="educacion">
             <li>
@@ -72,9 +78,7 @@
         </div> 
         </ul>
     
-    <h3>
-        <mark style="background:blue;color:white;" >Experiencia</mark>
-    </h3>
+    <h3>Experiencia    </h3>
     <ul>
         <div class="educacion">
         <li>
@@ -90,7 +94,7 @@
     </ul>
     
     <h3>
-        <mark style="background:blue;color:white;" > Habilidades</mark>
+        Habilidades
     </h3>
         <ol>
         <div class="habilidades">
@@ -101,7 +105,7 @@
         </ol>
     
     <h3>
-        <mark style="background:blue;color:white;" > Idiomas</mark>
+        Idiomas
     </h3>
     <ul>
         <div class="idiomas">
@@ -109,8 +113,7 @@
         </div>
     </ul>
     <h3>
-        <mark style="background:blue;color:white;" >Otros enlaces de interes</mark>
-    </h3>
+        Otros enlaces de interes</h3>
         <div id="redes">
         <a href="https://www.facebook.com/profile.php?id=100018724359808" target=_blank>Redes sociales Facebook</a>
         <br>
@@ -119,6 +122,6 @@
      
         <p><a href="#arriba"> Volver arriba </a><p> 
 
-              
+              </div>
     </body>
 </html>
