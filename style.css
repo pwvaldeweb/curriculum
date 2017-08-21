@@ -45,3 +45,20 @@ h1{
     background-color: brown;
    
 }
+@media print{
+    body{
+        color:blue;
+    }
+    table, td,th{
+        border: none;
+        
+    }
+    .contenedor{
+        background-color: darkgray;
+        width: 1000px;
+    }
+    a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
+    p{
+       display: none;
+    }
+}
